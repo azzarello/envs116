@@ -45,7 +45,6 @@
 			</theme>
 			<theme>
 				<themekt>None</themekt>
-				
 				<themekey>State or equivalent entity</themekey>
 				<themekey>Polygon</themekey>
 				<themekey>Block</themekey>
@@ -58,7 +57,7 @@
 				<placekey>State or Equivalent Entity</placekey>
 				<placekey>Washington</placekey>
 				<placekey>WA</placekey>
-				<placekey>53</placekey>	
+				<placekey>53</placekey>
 			</place>
 		</keywords>
 		<accconst>None</accconst>
@@ -114,7 +113,7 @@ For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polyg
 					<srccurr>Publication Date</srccurr>
 				</srctime>
 				<srccitea>MAF/TIGER</srccitea>
-				<srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau&apos;s Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+				<srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
 			</srcinfo>
 			<procstep>
 				<procdesc>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data. </procdesc>
@@ -149,80 +148,80 @@ For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polyg
 		</horizsys>
 	</spref>
 	<eainfo>
-    <detailed>
-      <enttyp>
-        <enttypl>tabblock2010_53_pophu.shp</enttypl>
-        <enttypd>2010 Census Block State-based</enttypd>
-        <enttypds>U.S. Census Bureau</enttypds>
-      </enttyp>
-      <attr>
-        <attrlabl>STATEFP10</attrlabl>
-        <attrdef>2010 Census state Federal Information Processing Standards
+		<detailed>
+			<enttyp>
+				<enttypl>tabblock2010_53_pophu.shp</enttypl>
+				<enttypd>2010 Census Block State-based</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>STATEFP10</attrlabl>
+				<attrdef>2010 Census state Federal Information Processing Standards
                  (FIPS) codes</attrdef>
-        <attrdefs>U.S. Census Bureau</attrdefs>
-        <attrdomv>
-          <codesetd>
-            <codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS.38-200x (R2004), Codes for the Identification of
                       the States, the District of Columbia, Puerto Rico, and the
                       Insular Areas of the United States (Formerly FIPS 5-2)</codesetn>
-            <codesets>U.S. Census Bureau</codesets>
-          </codesetd>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>COUNTYFP10</attrlabl>
-        <attrdef>2010 Census county Federal Information Processing Standards
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTYFP10</attrlabl>
+				<attrdef>2010 Census county Federal Information Processing Standards
                  (FIPS) code</attrdef>
-        <attrdefs>U.S. Census Bureau</attrdefs>
-        <attrdomv>
-          <codesetd>
-            <codesetn>INCITS.31-200x (R2007), Codes for the Identification of
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS.31-200x (R2007), Codes for the Identification of
                       the Counties and Equivalent Areas of the United States,
                       Puerto Rico, and the Insular Areas of the United States
                       (Formerly FIPS 6-4)</codesetn>
-            <codesets>U.S. Census Bureau</codesets>
-          </codesetd>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>TRACTCE10</attrlabl>
-        <attrdef>2010 Census census tract code</attrdef>
-        <attrdefs>U.S. Census Bureau</attrdefs>
-        <attrdomv>
-          <edom>
-            <edomv>000000</edomv>
-            <edomvd>Water tract in some coastal and Great Lakes water and
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TRACTCE10</attrlabl>
+				<attrdef>2010 Census census tract code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>000000</edomv>
+						<edomvd>Water tract in some coastal and Great Lakes water and
                     territorial sea</edomvd>
-            <edomvds>U.S. Census</edomvds>
-          </edom>
-          <edom>
-            <edomv>000100 to 998999</edomv>
-            <edomvd>Census tract number</edomvd>
-            <edomvds>U.S. Census Bureau</edomvds>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>BLOCKCE</attrlabl>
-        <attrdef>2010 Census tabulation block number</attrdef>
-        <attrdefs>U.S. Census Bureau</attrdefs>
-        <attrdomv>
-          <edom>
-            <edomv>0001 to 9999</edomv>
-            <edomvd>tabulation block number</edomvd>
-            <edomvds>U.S. Census Bureau</edomvds>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>BLOCKID10</attrlabl>
-        <attrdef>Block identifier; a concatenation of 2010 Census state Federal
+						<edomvds>U.S. Census</edomvds>
+					</edom>
+					<edom>
+						<edomv>000100 to 998999</edomv>
+						<edomvd>Census tract number</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BLOCKCE</attrlabl>
+				<attrdef>2010 Census tabulation block number</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0001 to 9999</edomv>
+						<edomvd>tabulation block number</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BLOCKID10</attrlabl>
+				<attrdef>Block identifier; a concatenation of 2010 Census state Federal
                  Information Processing Standards (FIPS) code, county FIPS code,
                  census tract code, and tabulation block number</attrdef>
-        <attrdefs>U.S. Census Bureau</attrdefs>
-        <attrdomv>
-          <codesetd>
-            <codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS.38-200x (R2004), Codes for the Identification of
                       the States, the District of Columbia, Puerto Rico, and the
                       Insular Areas of the United States (Formerly FIPS 5-2),
                       INCITS.31-200x (R2007), Codes for the Identification of
@@ -231,53 +230,53 @@ For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polyg
                       (Formerly FIPS 6-4), the census tract code that appears in
                       TRACTCE10 and the tabulation block number that appears in
                       BLOCKCE10</codesetn>
-            <codesets>U.S. Census Bureau</codesets>
-          </codesetd>
-        </attrdomv>
-      </attr>
-      <attr>
-  <attrlabl>PARTFLG</attrlabl> 
-  <attrdef>2010 Census Partial Block Flag</attrdef> 
-  <attrdefs>U.S. Census Bureau</attrdefs> 
- <attrdomv>
- <edom>
-  <edomv>N</edomv> 
-  <edomvd>No, Block is not a partial block</edomvd> 
-  <edomvds>U.S. Census</edomvds> 
-  </edom>
- <edom>
-  <edomv>Y</edomv> 
-  <edomvd>Yes, Block is a partial block</edomvd> 
-  <edomvds>U.S. Census Bureau</edomvds> 
-  </edom>
-  </attrdomv>
-  </attr>
- <attr>
-  <attrlabl>HOUSING10</attrlabl> 
-  <attrdef>2010 Census number of housing units</attrdef> 
-  <attrdefs>U.S. Census Bureau</attrdefs> 
- <attrdomv>
- <edom>
-  <edomv>0 to 9,999,999,999,999</edomv> 
-  <edomvd>Blank</edomvd> 
-  <edomvds>U.S. Census Bureau</edomvds> 
-  </edom>
-  </attrdomv>
-  </attr>
- <attr>
-  <attrlabl>POP10</attrlabl> 
-  <attrdef>2010 Census population</attrdef> 
-  <attrdefs>U.S. Census Bureau</attrdefs> 
- <attrdomv>
- <edom>
-  <edomv>0 to 9,999,999,999,999</edomv> 
-  <edomvd>Blank</edomvd> 
-  <edomvds>U.S. Census Bureau</edomvds> 
-  </edom>
-  </attrdomv>
-      </attr>
-    </detailed>
-  </eainfo>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PARTFLG</attrlabl>
+				<attrdef>2010 Census Partial Block Flag</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>No, Block is not a partial block</edomvd>
+						<edomvds>U.S. Census</edomvds>
+					</edom>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Yes, Block is a partial block</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>HOUSING10</attrlabl>
+				<attrdef>2010 Census number of housing units</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 to 9,999,999,999,999</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP10</attrlabl>
+				<attrdef>2010 Census population</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 to 9,999,999,999,999</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
 	<distinfo>
 		<distrib>
 			<cntinfo>
