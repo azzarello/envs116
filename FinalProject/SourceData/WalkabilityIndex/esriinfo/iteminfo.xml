@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ESRI_ItemInformation Culture='en-US'>
+<name>WalkabilityIndex</name>
+<guid>DEFAE93A-A9C1-496D-B74A-44DEEC4C4FCF</guid>
+<version>1.0</version>
+<created></created>
+<modified></modified>
+<catalogpath></catalogpath>
+<snippet>Block group data summarized to demonstrate walkability as a means of travel for the whole USA.</snippet>
+<description>&lt;A href=&quot;http://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B251AFDD9-23A7-4068-9B27-A3048A7E6012%7D&quot;&gt;Full Metadata&lt;/A&gt;
+The Walkability Index dataset characterizes every Census 2019 block group in the U.S. based on its relative walkability. Walkability depends upon characteristics of the built environment that influence the likelihood of walking being used as a mode of travel. The Walkability Index is based on the EPA&apos;s previous data product, the Smart Location Database (SLD). Block group data from the SLD was the only input into the Walkability Index, and consisted of four variables from the SLD weighted in a formula to create the new Walkability Index. This dataset shares the SLD&apos;s block group boundary definitions from Census 2019. The methodology describing the process of creating the Walkability Index can be found in the documents located at https://edg.epa.gov/data/Public/OA/WalkabilityIndex.zip. You can also learn more about the Smart Location Database at https://www.epa.gov/smartgrowth/smart-location-mapping.</description>
+<summary>Block group data summarized to demonstrate walkability as a means of travel for the whole USA.</summary>
+<title>WalkabilityIndex</title>
+<tags>OCR,Revitalization,Walkability,mart Location,Location Efficiency,Siting,Smart Growth,Transit Use,Transit Access,Employment,Jobs,Workers,Employees,Land Use,Planning.</tags>
+<type>Layer Package</type>
+<typekeywords>
+<typekeyword>Layer Package</typekeyword>
+<typekeyword>Data</typekeyword>
+<typekeyword>ArcGIS Pro</typekeyword>
+<typekeyword>ArcGIS Explorer</typekeyword>
+<typekeyword>lpkx</typekeyword>
+</typekeywords>
+<thumbnail>thumbnail/thumbnail.png</thumbnail>
+<documentation></documentation>
+<url></url>
+<extent>
+<xmin>nan</xmin>
+<ymin>nan</ymin>
+<xmax>nan</xmax>
+<ymax>nan</ymax>
+</extent>
+<spatialreference>WGS_1984_Web_Mercator_Auxiliary_Sphere</spatialreference>
+<minScale>591657527.591555</minScale>
+<maxScale>1128.4971760000001</maxScale>
+<datalastModifiedTime></datalastModifiedTime>
+<accessinformation>EPA Office of Community Revitalization with Urban Design 4 Health and EPA National Geospatial Support Team</accessinformation>
+<licenseinfo>These data are available for public access and use and carry no restrictions.</licenseinfo>
+</ESRI_ItemInformation>
